@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "832368381997",
+    "project_id": "saveyouapp-604d3",
+    "storage_bucket": "saveyouapp-604d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832368381997:android:d707557b04a55fe572e8a4",
+        "android_client_info": {
+          "package_name": "SaveYou.App"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD28vV-7f6cEa-HY2bqvtgfFCl15g02rM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

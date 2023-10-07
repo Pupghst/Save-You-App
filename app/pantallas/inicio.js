@@ -1,0 +1,1 @@
+import './AppDataBase/firebase.js'
