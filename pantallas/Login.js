@@ -5,6 +5,7 @@ export function Login(){
     return(
         <View style={styles.container}>
         <Text style={styles.titulos}>Login</Text>
+        <Text style={styles.titulos}>Inicia Seión</Text>
         <StatusBar style="auto" />
       </View>
     )
