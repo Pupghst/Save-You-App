@@ -4,7 +4,7 @@ import React from 'react';
 export function Login(){
     return(
         <View style={styles.container}>
-        <Text>Login</Text>
+        <Text style={styles.titulos}>Login</Text>
         <StatusBar style="auto" />
       </View>
     )
