@@ -9,6 +9,7 @@ export default function App() {
     <Text style={style.subTitulo}>Inicia Sesión</Text>
     <TextInput 
       placeholder='Email'
+      style={style.TextInput}
     />
     <TextInput 
       placeholder='Contraseña'
