@@ -7,7 +7,9 @@ export default function App() {
    <View style={style.container}>
     <Text style={style.titulo}>Login</Text>
     <Text style={style.titulo}>Inicia Sesión</Text>
-
+    <TextInput 
+      placeholder='Ej: kevin@gmail.com'
+    />
 
     <StatusBar style='auto' />
    </View>
