@@ -35,6 +35,7 @@ const style = StyleSheet.create({
 
   subTitulo:{
     fontSize: 20,
+    color: 'gray'
   }
 
 });
