@@ -1,5 +1,13 @@
-document.getElementById("register-form").addEventListener("submit",(e)=>{
-    e.preventDefault();
-    console.log(e.target.children.user.value)
-    const res = await fetch()
-})
+import React from 'react';
+import { StyleSheet, Text, View, TextInput} from 'react-native';
+
+render(){
+    return(
+        <text style={{
+            fontSize: 30,
+            fontFamily: ""
+            color: '#000',
+            fontWeight: 'bold',
+        }}>Registro</text>
+    )
+}
