@@ -10,6 +10,9 @@ export default function App() {
     <TextInput 
       placeholder='Email'
     />
+    <TextInput 
+      placeholder='Contraseña'
+    />
 
     <StatusBar style='auto' />
    </View>
