@@ -30,6 +30,7 @@ const style = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center'
   },
+  /*Para titulos de botones*/
   titulo: {
     fontSize: 30,
     color: '#000',
@@ -51,5 +52,8 @@ const style = StyleSheet.create({
     borderRadius: 30,
     backgroundColor: '#fff'
   }
+
+  /*css para logo*/
+  
 });
 
