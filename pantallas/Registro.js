@@ -1,8 +1,11 @@
 import React from 'react';
-import {Text, View, TextInput} from 'react-native';
+import { StyleSheet, Text, View, TextInput} from 'react-native';
 
 render(){
     return(
-        <text>Registro</text>
+        <text style={{
+            fontSize: 28,
+            fontFamily: ""
+        }}>Registro</text>
     )
 }
