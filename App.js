@@ -13,6 +13,8 @@ export default function App() {
     />
     <TextInput 
       placeholder='Contraseña'
+      style={style.TextInput}
+
     />
 
     <StatusBar style='auto' />
