@@ -34,7 +34,7 @@ const style = StyleSheet.create({
   },
 
   subTitulo:{
-    
+    fontSize: 20,
   }
 
 });
