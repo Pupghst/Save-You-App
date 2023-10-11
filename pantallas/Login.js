@@ -1,4 +1,4 @@
-export default function App() {
+export function Login() {
     return (
      <View style={style.container}>
       <Text style={style.titulo}>Login</Text>
