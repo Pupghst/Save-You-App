@@ -40,6 +40,7 @@ const style = StyleSheet.create({
 
   TextInput:{
     borderWidth: 1,
+    borderColor: 'black'
   }
 });
 
