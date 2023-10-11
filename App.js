@@ -31,6 +31,10 @@ const style = StyleSheet.create({
     fontSize: 30,
     color: '#000',
     fontWeight: 'bold',
+  },
+
+  subTitulo:{
+    
   }
 
 });
