@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, TextInput} from 'react-native';
+import{styledContainer, InnerContainer, PageLogo, PageTitle}
 
 export default function App() {
   return (
