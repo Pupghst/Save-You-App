@@ -28,7 +28,9 @@ const style = StyleSheet.create({
     justifyContent: 'center'
   },
   titulo: {
-    fontSize: 30
+    fontSize: 30,
+    color: '#000',
+    fontWeight: 'bold',
   }
 
 });
