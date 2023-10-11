@@ -6,7 +6,7 @@ export default function App() {
   return (
    <View style={style.container}>
     <Text style={style.titulo}>Login</Text>
-    <Text style={style.titulo}>Inicia Sesión</Text>
+    <Text style={style.subTitulo}>Inicia Sesión</Text>
     <TextInput 
       placeholder='Email'
     />
