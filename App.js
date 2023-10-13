@@ -17,9 +17,14 @@ export default function App() {
 
     />
 
+    
+    <StatusBar style='auto' />
+   </View>,
+
+   <View2 style={style.olvideContra}>
     <Text style={style.olvideContra}>Olvide Contraseña</Text>
     <StatusBar style='auto' />
-   </View>
+   </View2>
 
   );
 }
@@ -52,6 +57,11 @@ const style = StyleSheet.create({
     marginTop: 20,
     borderRadius: 30,
     backgroundColor: '#fff'
+  },
+
+  olvideContra: {
+    fontSize: 16,
+    alignItems: 'flex-end'
   }
 
   /*css para logo*/
