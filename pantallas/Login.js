@@ -6,7 +6,8 @@ const Login = () =>{
     return (
         <StyledContainer>
             <InnerContainer>
-
+                <PageLogo resizeMode="cover" source={require('./../assets/imag/Save_you_3.png')} />
+                <PageTitle>Save You</PageTitle>
             </InnerContainer>
         </StyledContainer>
     );
