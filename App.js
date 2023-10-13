@@ -27,8 +27,6 @@ export default function App() {
   );
 }
 
-const imageSource = require('./assets/imagenes/')
-
 const style = StyleSheet.create({
   container:{
     flex: 1,
@@ -39,7 +37,7 @@ const style = StyleSheet.create({
   /*Para titulos de botones*/
   titulo: {
     fontSize: 30,
-    color: '#000',
+    color: '#34434D',
     fontWeight: 'bold',
   },
 
