@@ -29,7 +29,7 @@ async function initMap() {
     marker = new google.maps.Marker({ //se crea el marcador
         position: argCords,
         map: map,
-        
+        initAutocomplete(){}
     })
     function initAutocomplete(){
         autocomplete = new google.maps.places.Autocomplete(input)
