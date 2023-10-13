@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, TextInput} from 'react-native';
+import { StyleSheet, Text, View, TextInput, Image} from 'react-native';
 
 export default function App() {
   return (
@@ -17,11 +17,17 @@ export default function App() {
 
     />
 
+    <Image 
+    /*source={{uri: 'https://discord.com/channels/1082878009310195762/1082878010849493076/1161722793122086962'}}*/
+    />
+
     <StatusBar style='auto' />
    </View>
 
   );
 }
+
+const imageSource = require('./assets/imagenes/')
 
 const style = StyleSheet.create({
   container:{
