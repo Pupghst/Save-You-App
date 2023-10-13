@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, TextInput} from 'react-native';
+import{styledContainer, InnerContainer, PageLogo, PageTitle}
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ const style = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center'
   },
+  /*Para titulos de botones*/
   titulo: {
     fontSize: 30,
     color: '#000',
@@ -44,11 +46,15 @@ const style = StyleSheet.create({
   TextInput:{
     borderWidth: 1,
     borderColor: 'black',
+    paddingStart: 30,
     padding: 10,
     width: '80%',
     marginTop: 20,
     borderRadius: 30,
     backgroundColor: '#fff'
   }
+
+  /*css para logo*/
+  
 });
 
