@@ -12,6 +12,19 @@ import { StyleSheet, Text, View, TextInput} from 'react-native';
 export default function App() {
 
 <link rel='stylesheet' type='css' href='inicio.css'></link>
+
+const mapDiv = document.getElementById['map'];
+let map;
+
+async function initMap() {
+    //@ts-ignore
+    const { Map } = await google.maps.importLibrary("maps");
+  
+    map = new Map(document.getElementById("map"), {
+      center: { lat: -34, lng: -64 },
+      zoom: 5,
+    });
+  }
 }
 const style = StyleSheet.create({
    
