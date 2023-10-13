@@ -12,7 +12,7 @@ import { StyleSheet, Text, View, TextInput} from 'react-native';
 
 const inicio =() =>{
 
-<link rel='stylesheet' type='css' href='inicio.css'></link>
+<link rel='stylesheet' type='css' href='inicio.js'></link>
 let map;
 let marker;
 let autocomplete;
@@ -41,6 +41,7 @@ async function initMap() {
         })
 
     }
+    
 }
 const style = StyleSheet.create({
    
