@@ -1,22 +1,21 @@
 import { TextInput } from 'react-native';
 import './AppDataBase/firebase.js'
-
 import react from 'react';
 
-<script async 
+<script async id='map'
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0IGp-U2WQNvjTFiV90CrsMbIwtnM5fvM&libraries=places&callback=initMap">
 </script>
 
 
 import { StyleSheet, Text, View, TextInput} from 'react-native';
 
-const inicio =() =>{
+export default function App() {
 
 <link rel='stylesheet' type='css' href='inicio.css'></link>
 let map;
 let marker;
 let autocomplete;
-const argCords = { lat: -34, lng: -64 }; //valoe constante de las cordenadas de argentina
+const argCords = { lat: -34, lng: -64 }; //valor constante de las cordenadas de argentina
 async function initMap() { 
     //@ts-ignore
     const { Map } = await google.maps.importLibrary("maps");
@@ -37,11 +36,21 @@ async function initMap() {
         autocomplete.addListener('place_changed', function(){
             const place = autocomplete.getplace(); //autocompleta el nombre del lugar al cual querres ir
             map.setcenter(place.geometry.location); //pone el mapa en la ubicacion puesta en el buscador
-            marker.setposition(place.geometry.location); //ppne el marcador en el lugar indicado por el buscador
+            marker.setposition(place.geometry.location); //pone el marcador en el lugar indicado por el buscador
         })
 
     }
+    
+    form.addEeventListener("submit", e=>{
+        let warnings = ""
+        if(email.value.length < 10){
+            warnings += "La contraseña no es valida" 
+
+        }
+    })
+
 }
+
 const style = StyleSheet.create({
    
 })
