@@ -17,10 +17,7 @@ export default function App() {
 
     />
 
-    <Image 
-    /*source={{uri: 'https://discord.com/channels/1082878009310195762/1082878010849493076/1161722793122086962'}}*/
-    />
-
+    <Text style={style.olvideContra}>Olvide Contraseña</Text>
     <StatusBar style='auto' />
    </View>
 
