@@ -15,16 +15,22 @@ export default function App() {
 
 const mapDiv = document.getElementById['map'];
 let map;
-
+let marker;
+const argCords = { lat: -34, lng: -64 };
 async function initMap() {
     //@ts-ignore
     const { Map } = await google.maps.importLibrary("maps");
   
     map = new Map(document.getElementById("map"), {
-      center: { lat: -34, lng: -64 },
+      center: argCords,
       zoom: 5,
     });
   }
+    marker = new google.maps.Marker({
+        position: argCords,
+        map: map,
+
+    })
 }
 const style = StyleSheet.create({
    
