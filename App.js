@@ -1,7 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, TextInput} from 'react-native';
-import{styledContainer, InnerContainer, PageLogo, PageTitle}
+import { StyleSheet, Text, View, TextInput, Image} from 'react-native';
 
 export default function App() {
   return (
@@ -18,6 +17,7 @@ export default function App() {
 
     />
 
+    <Text style={style.olvideContra}>Olvide Contraseña</Text>
     <StatusBar style='auto' />
    </View>
 
@@ -34,7 +34,7 @@ const style = StyleSheet.create({
   /*Para titulos de botones*/
   titulo: {
     fontSize: 30,
-    color: '#000',
+    color: '#34434D',
     fontWeight: 'bold',
   },
 
@@ -52,9 +52,13 @@ const style = StyleSheet.create({
     marginTop: 20,
     borderRadius: 30,
     backgroundColor: '#fff'
+  },
+
+  olvideContra: {
+    fontSize: 16,
+    justifyContent: ''
   }
 
   /*css para logo*/
-  
 });
 
