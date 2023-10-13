@@ -1,10 +1,5 @@
 import './AppDataBase/firebase.js'
 
-
-import react from 'react';
-
-
-
 import react from 'react';
 
 <script async id='map'
