@@ -1,6 +1,6 @@
 import React from "react";
 
-import{StyledContainer, InnerContainer, PageLogo, PageTitle} from './../estilos/login'
+import{StyledContainer, InnerContainer, PageLogo, PageTitle} from '../estilos/styles'
 
 const Login = () =>{
     return (
