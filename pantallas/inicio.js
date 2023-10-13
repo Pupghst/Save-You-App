@@ -43,6 +43,7 @@ async function initMap() {
     
     form.addEeventListener("submit", e=>{
         let warnings = ""
+        let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
         if(email.value.length < 10){
             warnings += "La contraseña no es valida" 
 
