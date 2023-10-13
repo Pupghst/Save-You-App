@@ -9,13 +9,12 @@ import react from 'react';
 
 import { StyleSheet, Text, View, TextInput} from 'react-native';
 
-const App =() => {
+export default function App() {
 
-
-
+<link rel='stylesheet' type='css' href='inicio.css'></link>
 }
 const style = StyleSheet.create({
    
 })
-export default App;
+
 
