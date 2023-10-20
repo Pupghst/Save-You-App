@@ -1,7 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, TextInput} from 'react-native';
 
-render(){
     return(
         <text style={{
             fontSize: 29,
@@ -31,4 +30,3 @@ render(){
         fontWeight: 'bold',
     }}
     >Contraseña</text>,
-}
