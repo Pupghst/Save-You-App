@@ -5,9 +5,9 @@ render(){
     return(
         <text style={{
             fontSize: 30,
-            fontFamily: ""
+            fontFamily: "",
             color: '#000',
-            fontWeight: 'bold',
+            fontWeight: 'bold'
         }}>Registro</text>
     )
 }
