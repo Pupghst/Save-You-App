@@ -3,10 +3,15 @@ import { StyleSheet, Text, View, TextInput} from 'react-native';
 
     return(
         <text style={{
+
             fontSize: 29,
             fontFamily: ""
             color: '#0000',
             fontWeight: 'bold',
+            fontSize: 30,
+            fontFamily: "",
+            color: '#000',
+            fontWeight: 'bold'
         }}>Registro</text>
     )
     <text style={{
