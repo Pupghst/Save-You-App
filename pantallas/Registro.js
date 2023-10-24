@@ -12,7 +12,7 @@ import { StyleSheet, Text, View, TextInput} from 'react-native';
             fontFamily: "",
             color: '#000',
             fontWeight: 'bold'
-        }}>Registro</text>
+        }}>Crear cuenta</text>
     )
     <text style={{
         fontSize: 29,
