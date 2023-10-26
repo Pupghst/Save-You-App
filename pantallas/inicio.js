@@ -54,8 +54,8 @@ async function initMap() {
 
 }
 
-const style = StyleSheet.create({
-   
-})
+//const style = StyleSheet.create({
+//   
+//})
 
 
