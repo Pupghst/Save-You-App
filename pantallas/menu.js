@@ -5,7 +5,7 @@ const App = () => {
     return{
 
     <View>
-        <Text>Home</Text>
+        <Text>Home bienvenido a SaveYou</Text>
     </View>
 }
 
