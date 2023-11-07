@@ -1,50 +1,49 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, TextInput, Image, PageLogo} from 'react-native';
+import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 
 export default function App() {
   return (
-   <View style={style.container}>
+    <View style={styles.container}>
+      <Text style={styles.titulo}>Login</Text>
+      <Text style={styles.subTitulo}>Inicia Sesión</Text>
+      <TextInput 
+        placeholder='Email'
+        style={styles.textInput}
+      />
+      <TextInput 
+        placeholder='Contraseña'
+        style={styles.textInput} keyboardType='visible-password'
+      />
 
-    <Text style={style.titulo}>Login</Text>
-    <Text style={style.subTitulo}>Inicia Sesión</Text>
-    <TextInput 
-      placeholder='Email'
-      style={style.TextInput}
-    />
-    <TextInput 
-      placeholder='Contraseña'
-      style={style.TextInput}
+      <Text style={styles.olvideContra}>Olvidé la Contraseña</Text>
 
-    />
+      <Button title="Iniciar sesión" onPress={() => handleLogin()} />
 
-    <Text style={style.olvideContra}>Olvide Contraseña</Text>
-    <StatusBar style='auto' />
-   </View>
+      <Text style={styles.registrate}>¿No tienes una cuenta? Regístrate</Text>
 
+      <StatusBar style='auto' />
+    </View>
   );
 }
 
-const style = StyleSheet.create({
-  container:{
+const styles = StyleSheet.create({
+  container: {
     flex: 1,
     backgroundColor: '#f1f1f1',
     alignItems: 'center',
     justifyContent: 'center'
   },
-  /*Para titulos de botones*/
   titulo: {
     fontSize: 30,
     color: '#34434D',
     fontWeight: 'bold',
   },
-
-  subTitulo:{
+  subTitulo: {
     fontSize: 20,
     color: 'gray'
   },
-
-  TextInput:{
+  textInput: {
     borderWidth: 1,
     borderColor: 'black',
     paddingStart: 30,
@@ -54,13 +53,21 @@ const style = StyleSheet.create({
     borderRadius: 30,
     backgroundColor: '#fff'
   },
-
   olvideContra: {
     fontSize: 16,
-    justifyContent: ''
+    marginTop: 10, // Añade un espacio entre el texto y el botón "Iniciar sesión"
+  },
+  registrate: {
+    fontSize: 16,
+    marginTop: 20, // Añade un espacio entre el botón "Iniciar sesión" y el texto "¿No tienes una cuenta? Regístrate"
   }
-
-  /*css para logo*/
 });
+
+// Función para manejar la acción de iniciar sesión
+function handleLogin() {
+  // Aquí puedes implementar la lógica de inicio de sesión
+  // Por ejemplo, puedes navegar a la pantalla de inicio después de iniciar sesión.
+}
+
 
 
