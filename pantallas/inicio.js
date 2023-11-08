@@ -7,7 +7,7 @@ import { StyleSheet, Text, View, TextInput} from 'react-native';
 </script>
 
 
-export default function App() {
+export default function Inicio() {
 
 <link rel='stylesheet' type='css' href='inicio.js'></link>
 let map;
