@@ -1,11 +1,10 @@
-import React from 'react';
-import { StyleSheet, Text, View, TextInput} from 'react-native';
+import React, { useState } from 'react';
+import { StyleSheet, Text, View, TextInput, TouchableOpacity, Alert } from 'react-native';
 
     return(
         <text style={{
-
             fontSize: 29,
-            fontFamily: ""
+            fontFamily: "",
             color: '#0000',
             fontWeight: 'bold',
             fontSize: 30,
@@ -14,24 +13,30 @@ import { StyleSheet, Text, View, TextInput} from 'react-native';
             fontWeight: 'bold'
         }}>Crear cuenta</text>
     )
+            fontWeight: 'bold',
+        }}
+        >Registro</text>;
+    
     <text style={{
         fontSize: 29,
         fontFamily: "",
         color: '#0000',
         fontWeight: 'bold',
     }}
-    >Gmail</text>,
+    >Gmail</text>;
     <text style={{
         fontSize: 29,
         fontFamily: "",
         color: '#0000',
         fontWeight: 'bold',
     }}
-    >Usuario</text>,
+    >Usuario</text>;
     <text style={{
         fontSize: 29,
         fontFamily: "",
         color: '#0000',
         fontWeight: 'bold',
     }}
-    >Contraseña</text>,
+    >Contraseña</text>;
+    )
+}
