@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, Alert } from 'react-native';
 import React from 'react';
 
+
  export function Registro()  {
  const [username, setUsername] = useState('');
  const [email, setEmail] = useState('');
@@ -74,4 +75,3 @@ const styles = StyleSheet.create({
     textAlign: 'center',
  },
 });
-
